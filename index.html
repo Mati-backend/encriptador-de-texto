@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img class="contenido__seccion1__logo" src="./assets/Vectoralura-logo.svg" alt="Logo de Alura">
+    </header>
+    <main>
+        <div class="contenido">
+            <div class="contenido__seccion1">
+                    <textarea class="contenido__seccion1__texto" id="contenido__seccion1__texto" name="texto" id="texto" cols="30" rows="10"
+                        placeholder="Ingrese el texto aqui"></textarea>
+                    <div class="contenido__seccion1__inferior">
+                        <div class="contenido__seccion1__inferior__aviso">
+                            <img src="./assets/Vectorinfo-logo.svg" alt="cartel de información">
+                            <p class="contenido__seccion1__inferior__aviso__texto">Solo letras minúsculas y sin acentos
+                            </p>
+                        </div>
+                        <div class="contenido__seccion1__inferior__botones">
+                            <button class="contenido__seccion1__inferior__botones__encriptar" onclick="btnEncriptar()">Encriptar</button>
+                            <button class="contenido__seccion1__inferior__botones__desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                        </div>
+                    </div>    
+                    
+            </div>
+            <div class="contenido__seccion2">
+                <img class="contenido__seccion2__imagen" src="./assets/Muñecomuñeco.svg" alt="Muñeco Buscando">
+                <div class="loader hidden"></div>
+                <h3 class="contenido__seccion2_tituloImagen">Ningún mensaje fue encontrado</h3>
+                <p class="contenido__seccion2__texto">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <textarea class="contenido__seccion2__resultado" id="contenido__seccion2__resultado" name="resultado" id="resultado" rows="10"></textarea>
+                <div>
+                    <button class="contenido__seccion2__botonCopiar" onclick="btnCopiar()">Copiar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    
+     <footer>
+        <p>Desarrollado por <b>Matías Suárez</b></p>
+        <a  href="https://www.linkedin.com/in/matiasemilio-suarez/"><img class="logoLinkedin" src="./assets/linkedin.png" alt="" ></a>
+        <a  href="https://github.com/Mati-backend"><img class="logoGithub" src="./assets/github.png" alt=""></a>
+    </footer>
+</body>
+</html>
