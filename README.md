@@ -14,6 +14,21 @@
 - **Flexibilidad:** Funciona perfectamente en diferentes plataformas, lo que te permite proteger tu información desde cualquier lugar y en cualquier momento.
 - **Código Abierto:** Este proyecto es completamente open-source. Si eres desarrollador, te invitamos a explorar, mejorar y adaptar el encriptador a tus propias necesidades.
 
+
+Usarlo es muy sencillo:
+
+1. Ingresa el texto que deseas encriptar en el cuadro de texto.
+2. Presiona el botón de "Encriptar".
+3. Verás el texto encriptado del lado derecho de la pantalla, con un botón para copiar el texto encriptado al portapapeles.
+
+Si necesitas desencriptar el texto, solo tienes que seguir estos pasos:
+
+1. Ingresa el texto encriptado en el cuadro de texto.
+2. Presiona el botón de "Desencriptar".
+3. Verás el texto desencriptado del lado derecho de la pantalla, con un botón para copiar el texto encriptado al portapapeles.
+
+
+
 ¡Prueba nuestro Encriptador de Texto hoy mismo y descubre lo fácil que es mantener tu información segura! 🚀
 
 > **¡Colabora con nosotros!** Si te gusta este proyecto, no dudes en dejar una estrella ⭐ en GitHub o contribuir con mejoras. ¡Tu apoyo es importante para seguir mejorando y creciendo!
